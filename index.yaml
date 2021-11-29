@@ -3,7 +3,7 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-29T13:45:39.689933329+03:00"
+    created: "2021-11-29T16:02:00.644836517+03:00"
     description: A Helm chart for Kubernetes
     digest: b6b18cfdc605df4b03161c76b514d43e3bb405585dd6101f2846ccecda7349b0
     name: my-app
@@ -14,12 +14,12 @@ entries:
   nginx-revproxy:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-29T13:45:39.691453262+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 6ac5ece816e3916384a19b3ed98d364a232d6ac22b867befdef3220808b9b5d3
+    created: "2021-11-29T16:02:00.646137171+03:00"
+    description: helm chart for nginx-revproxy
+    digest: d1098a84890afc6bb8dcfd08754a02e0d458c0841d6ebb498a0a296e0cc74d87
     name: nginx-revproxy
     type: application
     urls:
     - https://rezoruno.github.io/helm-charts/nginx-revproxy-1.0.0.tgz
     version: 1.0.0
-generated: "2021-11-29T13:45:39.688915934+03:00"
+generated: "2021-11-29T16:02:00.637566924+03:00"

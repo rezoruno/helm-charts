@@ -3,7 +3,7 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-06T16:36:18.979737427+03:00"
+    created: "2022-02-15T11:41:20.514000655+03:00"
     description: A Helm chart for Kubernetes
     digest: b6b18cfdc605df4b03161c76b514d43e3bb405585dd6101f2846ccecda7349b0
     name: my-app
@@ -11,10 +11,21 @@ entries:
     urls:
     - https://rezoruno.github.io/helm-charts/my-app-0.1.0.tgz
     version: 0.1.0
+  nginx-1.20.2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-15T11:41:20.514747525+03:00"
+    description: helm chart for nginx-revproxy
+    digest: 0ca8ccf7a70fdcaf1f9ca02896c713c34bf057c9f6812af83ee8acc2aad95f96
+    name: nginx-1.20.2
+    type: application
+    urls:
+    - https://rezoruno.github.io/helm-charts/nginx-1.20.2-1.0.3.tgz
+    version: 1.0.3
   nginx-revproxy:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-06T16:36:18.992254009+03:00"
+    created: "2022-02-15T11:41:20.521862104+03:00"
     description: helm chart for nginx-revproxy
     digest: 9f338dc6816b6ce9e1b55d363779345b4cfcc978ac14258cba313a3018502bb0
     name: nginx-revproxy
@@ -24,7 +35,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-06T16:36:18.984515491+03:00"
+    created: "2022-02-15T11:41:20.52051314+03:00"
     description: helm chart for nginx-revproxy
     digest: eb0429871d63f0b9bd9575802b4a8fc1a3b8acfe227fee74beba787c7e2e889e
     name: nginx-revproxy
@@ -34,7 +45,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-06T16:36:18.982815935+03:00"
+    created: "2022-02-15T11:41:20.517251379+03:00"
     description: helm chart for nginx-revproxy
     digest: 6d049349eb4117fc9088313dd12f0e201431de1d99f47539cd6c8c690f5b8c4a
     name: nginx-revproxy
@@ -42,4 +53,4 @@ entries:
     urls:
     - https://rezoruno.github.io/helm-charts/nginx-revproxy-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-06T16:36:18.978558821+03:00"
+generated: "2022-02-15T11:41:20.508648652+03:00"

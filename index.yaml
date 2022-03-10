@@ -3,7 +3,7 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-15T15:34:59.108678298+03:00"
+    created: "2022-03-10T14:22:04.379057922+03:00"
     description: A Helm chart for Kubernetes
     digest: b6b18cfdc605df4b03161c76b514d43e3bb405585dd6101f2846ccecda7349b0
     name: my-app
@@ -13,10 +13,20 @@ entries:
     version: 0.1.0
   nginx:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-02-15T15:34:59.109175115+03:00"
+    appVersion: 1.20.2
+    created: "2022-03-10T14:22:04.381208399+03:00"
     description: Helm chart for nginx-1.20.2
-    digest: dfed6e437f680a0d468a20f29f89cba0008de89a7fdd6d36e20b3ed8f3f62a09
+    digest: ec902889aba220512e5b5446e75321120a5ef3ef16fa9c1f001f8107759100c6
+    name: nginx
+    type: application
+    urls:
+    - https://rezoruno.github.io/helm-charts/nginx-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-10T14:22:04.380313342+03:00"
+    description: Helm chart for nginx-1.20.2
+    digest: d832444127195405f892f5883c3e638684dea4506aa92f4259d9e6966b03ba19
     name: nginx
     type: application
     urls:
@@ -25,7 +35,7 @@ entries:
   nginx-revproxy:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-15T15:34:59.11909476+03:00"
+    created: "2022-03-10T14:22:04.397121027+03:00"
     description: helm chart for nginx-revproxy
     digest: 9f338dc6816b6ce9e1b55d363779345b4cfcc978ac14258cba313a3018502bb0
     name: nginx-revproxy
@@ -35,7 +45,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-15T15:34:59.118668476+03:00"
+    created: "2022-03-10T14:22:04.395679495+03:00"
     description: helm chart for nginx-revproxy
     digest: eb0429871d63f0b9bd9575802b4a8fc1a3b8acfe227fee74beba787c7e2e889e
     name: nginx-revproxy
@@ -45,7 +55,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-15T15:34:59.118229851+03:00"
+    created: "2022-03-10T14:22:04.385620249+03:00"
     description: helm chart for nginx-revproxy
     digest: 6d049349eb4117fc9088313dd12f0e201431de1d99f47539cd6c8c690f5b8c4a
     name: nginx-revproxy
@@ -53,4 +63,4 @@ entries:
     urls:
     - https://rezoruno.github.io/helm-charts/nginx-revproxy-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-15T15:34:59.076380034+03:00"
+generated: "2022-03-10T14:22:04.377574199+03:00"

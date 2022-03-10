@@ -1,6 +1,6 @@
 # helm-charts
 # Installation Steps
-helm repo add helm-charts https://rezoruno.github.io/helm-charts
+helm repo add helm-charts https://rezoruno.github.io/helm-charts\n
 helm install $name helm-charts/nginx -n $namespace
 
 Get the application URL by running these commands:
